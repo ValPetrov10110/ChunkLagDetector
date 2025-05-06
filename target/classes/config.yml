@@ -1,0 +1,17 @@
+# ChunkLagDetector Configuration
+
+# Discord webhook settings
+discord:
+
+  webhook-url: " "
+
+# Plugin settings
+settings:
+  # How often to scan for laggy chunks (in minutes)
+  scan-interval-minutes: 15
+  
+  # Threshold in milliseconds - chunks taking longer than this to process are reported
+  report-threshold-ms: 50
+  
+  # Enable for detailed logging
+  debug-mode: false

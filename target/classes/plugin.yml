@@ -1,0 +1,30 @@
+name: ChunkLagDetector
+version: 1.0.0
+main: com.yourname.chunklagdetector.ChunkLagDetector
+api-version: 1.16
+description: Detects laggy chunks and reports them to Discord
+author: YourName
+
+commands:
+  chunklag:
+    description: ChunkLagDetector main command
+    usage: /chunklag [scan|report|debug|reload|help]
+    permission: chunklag.use
+    aliases: [cl, chunks]
+
+permissions:
+  chunklag.use:
+    description: Allows use of the base /chunklag command
+    default: op
+  chunklag.scan:
+    description: Allows scanning for laggy chunks
+    default: op
+  chunklag.report:
+    description: Allows viewing reports of laggy chunks
+    default: op
+  chunklag.debug:
+    description: Allows toggling debug mode
+    default: op
+  chunklag.reload:
+    description: Allows reloading the configuration
+    default: op
