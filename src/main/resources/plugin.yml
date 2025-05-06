@@ -1,9 +1,9 @@
 name: ChunkLagDetector
 version: 1.0.0
-main: com.yourname.chunklagdetector.ChunkLagDetector
+main: com.justvanilla.chunklagdetector.ChunkLagDetector
 api-version: 1.16
 description: Detects laggy chunks and reports them to Discord
-author: YourName
+author: JustVanilla
 
 commands:
   chunklag:
